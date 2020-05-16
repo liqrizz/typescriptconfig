@@ -1,0 +1,31 @@
+{
+  "name": "typescriptlearn",
+  "version": "1.0.0",
+  "description": "my learning typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build-dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "ts_config": "tsc --init --declaration --allowSyntheticDefaultImports --target esnext --outDir lib"
+  },
+  "author": "Zhunusov Ermek",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/plugin-proposal-class-properties": "7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-typescript": "7.9.0",
+    "@types/source-map": "^0.5.2",
+    "babel-loader": "8.1.0",
+    "fork-ts-checker-webpack-plugin": "4.1.2",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "typescript": "3.8.3",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {}
+}
